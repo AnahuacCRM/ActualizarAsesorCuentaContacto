@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <!--Switches-->
+  <CopyAttributes Enabled="true" />
+  <UnionDuplicates Enabled="false" />
+  <Debug Enabled="0" />
+  <Internalize Enabled="false" />
+  <MergeXml Enabled="false" />
+  <!--Signing-->
+  <Sign Enabled="true" Delay="false">C:\bbp\Projects\Anahuac\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk</Sign>
+  <!--Logging-->
+  <Log Enabled="true">C:\bbp\Projects\Anahuac\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\ilmerge.log</Log>
+  <!--Assemblies-->
+  <Assemblies>
+    <Assembly>C:\bbp\Projects\Anahuac\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll</Assembly>
+    <Assembly>C:\bbp\Projects\Anahuac\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll</Assembly>
+    <Assembly>C:\bbp\Projects\Anahuac\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll</Assembly>
+    <Assembly>C:\bbp\Projects\Anahuac\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll</Assembly>
+    <Primary>C:\bbp\Projects\Anahuac\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll</Primary>
+  </Assemblies>
+  <!--Output-->
+  <OutputAssembly>C:\bbp\Projects\Anahuac\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\Anahuac.CRM.EnviaOportunidadABanner.dll</OutputAssembly>
+  <!--.NET Framework-->
+  <Framework>.NET Framework 4.6 Full</Framework>
+  <!--Merge Engine-->
+  <Engine Name="ILMerge" />
+</Settings>

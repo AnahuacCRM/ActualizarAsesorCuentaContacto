@@ -1,0 +1,17 @@
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\obj\Release\Anahuac.CRM.EnviaOportunidadABanner.csprojResolveAssemblyReference.cache
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\Anahuac.CRM.EnviaOportunidadABanner.dll.config
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\Anahuac.CRM.EnviaOportunidadABanner.dll
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\Anahuac.CRM.EnviaOportunidadABanner.pdb
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\DocumentFormat.OpenXml.dll
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\Microsoft.Xrm.Sdk.Deployment.dll
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\Microsoft.Xrm.Tooling.Connector.dll
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\Newtonsoft.Json.dll
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\Rhino.RetrieveBearerToken.dll
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\System.Net.Http.Formatting.dll
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\Newtonsoft.Json.xml
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Release\System.Net.Http.Formatting.xml
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\obj\Release\Anahuac.CRM.EnviaOportunidadABanner.dll
+C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\obj\Release\Anahuac.CRM.EnviaOportunidadABanner.pdb

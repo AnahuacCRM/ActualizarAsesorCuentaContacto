@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <!--Switches-->
+  <CopyAttributes Enabled="true" />
+  <UnionDuplicates Enabled="false" />
+  <Debug Enabled="1" />
+  <Internalize Enabled="false" />
+  <MergeXml Enabled="false" />
+  <!--Signing-->
+  <Sign Enabled="true" Delay="false">C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\PluginNuevaVersion\ActualizarAsesorCuenaContacto\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk</Sign>
+  <!--Logging-->
+  <Log Enabled="true">C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\PluginNuevaVersion\ActualizarAsesorCuenaContacto\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\lmerge\log.log</Log>
+  <!--Assemblies-->
+  <Assemblies>
+    <Primary></Primary>
+  </Assemblies>
+  <!--Output-->
+  <OutputAssembly>C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\PluginNuevaVersion\ActualizarAsesorCuenaContacto\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\lmerge\ActualizaAsesor.dll</OutputAssembly>
+  <!--.NET Framework-->
+  <Framework>.NET Framework 4.6 Full</Framework>
+  <!--Merge Engine-->
+  <Engine Name="ILMerge" />
+</Settings>

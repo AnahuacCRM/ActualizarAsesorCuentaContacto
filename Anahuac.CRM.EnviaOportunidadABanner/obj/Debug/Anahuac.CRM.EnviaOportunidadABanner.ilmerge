@@ -1,0 +1,10 @@
+Anahuac.CRM.EnviaOportunidadABanner.dll
+Rhino.RetrieveBearerToken.dll
+DocumentFormat.OpenXml.dll
+Microsoft.Crm.Sdk.Proxy.dll
+Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+Microsoft.Xrm.Sdk.Deployment.dll
+Microsoft.Xrm.Sdk.dll
+Microsoft.Xrm.Tooling.Connector.dll
+Newtonsoft.Json.dll
+System.Net.Http.Formatting.dll
