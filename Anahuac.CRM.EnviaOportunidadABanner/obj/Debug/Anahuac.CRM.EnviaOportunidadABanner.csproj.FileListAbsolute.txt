@@ -97,3 +97,20 @@ C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\PluginNuevaVersion\Actualizar
 C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\PluginNuevaVersion\ActualizarAsesorCuenaContacto\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
 C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\PluginNuevaVersion\ActualizarAsesorCuenaContacto\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.xml
 C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\PluginNuevaVersion\ActualizarAsesorCuenaContacto\Anahuac.CRM.EnvioOportunidad\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.xml
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll.config
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.pdb
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\DocumentFormat.OpenXml.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.xml
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.xml
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\obj\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\obj\Debug\Anahuac.CRM.EnviaOportunidadABanner.pdb
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\obj\Debug\Anahuac.CRM.EnviaOportunidadABanner.csprojResolveAssemblyReference.cache

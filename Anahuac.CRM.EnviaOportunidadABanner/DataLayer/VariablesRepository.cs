@@ -300,7 +300,51 @@ namespace Anahuac.CRM.EnviaOportunidadABanner.DataLayer
             return resultado;
         }
 
+        public int getUsuario(string idUsuario)
+        {
+            int cont = 0;
+            QueryExpression QueryOportEx = new QueryExpression("systemuser")
+            {
 
+                NoLock = false,
+                ColumnSet = new ColumnSet(new string[] { "systemuserid", "internalemailaddress" }),
+                Criteria = {
+                    Conditions = {
+                        new ConditionExpression("systemuserid", ConditionOperator.Equal, idUsuario.ToString()),
 
+                    }
+                }
+            };
+            var ListOportRel = _cnx.service.RetrieveMultiple(QueryOportEx);
+
+            if (ListOportRel != null)
+            {
+                if(ListOportRel.Entities[0].Attributes["internalemailaddress"].ToString() == "ServicioCRM@anahuac.mx")
+                {
+                    cont = ListOportRel.Entities.Count;
+                }
+                
+            }
+            return cont;
+        }
+        public string getEjecutaQueryGenerico(string entityName, string attributeName, object value)
+        {
+            QueryExpression QueryOportEx = new QueryExpression(entityName)
+            {
+
+                NoLock = false,
+                ColumnSet = new ColumnSet(new string[] { attributeName }),
+                Criteria = {
+                    Conditions = {
+                        new ConditionExpression(attributeName, ConditionOperator.Equal, value.ToString()),
+                    }
+                }
+            };
+            var ListQuery = _cnx.service.RetrieveMultiple(QueryOportEx);
+            if (ListQuery != null)
+                return ListQuery.Entities[0].Attributes[attributeName].ToString();
+            else
+                return string.Empty;
+        }
     }
 }

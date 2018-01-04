@@ -1,0 +1,2071 @@
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\Anahuac.CRM.ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\Anahuac.CRM.ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\Anahuac.CRM.ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\Anahuac.CRM.ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+Can not find PDB file. Debug info will not be available for assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Microsoft.Xrm.Sdk'.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Runtime.Serialization'.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Core'.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ComponentModel.DataAnnotations'.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Data'.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Numerics'.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xml'.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Xml.Linq'.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Net.Http'.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'Newtonsoft.Json'.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.ServiceModel'.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.EnterpriseServices'.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Transactions'.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Can not find PDB file. Debug info will not be available for assembly 'System.Data.SqlXml'.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.
+Set platform to '4.0', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Set platform to 'v2', using directory 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319' for mscorlib.dll
+Running on Microsoft (R) .NET Framework v4.0.30319
+mscorlib.dll version = 4.0.0.0
+The list of input assemblies is:
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll
+	E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Anahuac.CRM.EnviaOportunidadABanner's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Newtonsoft.Json's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Rhino.RetrieveBearerToken.dll'.
+	Successfully read in assembly.
+	There were no errors reported in Rhino.RetrieveBearerToken's metadata.
+Trying to read assembly from the file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\System.Net.Http.Formatting.dll'.
+	Successfully read in assembly.
+	There were no errors reported in System.Net.Http.Formatting's metadata.
+Checking to see that all of the input assemblies have a compatible PeKind.
+	Anahuac.CRM.EnviaOportunidadABanner.PeKind = ILonly
+	Newtonsoft.Json.PeKind = ILonly
+	Rhino.RetrieveBearerToken.PeKind = ILonly
+	System.Net.Http.Formatting.PeKind = ILonly
+All input assemblies have a compatible PeKind value.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'Microsoft.Xrm.Sdk'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Microsoft.Xrm.Sdk' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'Microsoft.Xrm.Sdk' is referencing assembly 'System.Runtime.Serialization'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Runtime.Serialization' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Core'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Core' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ComponentModel.DataAnnotations'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ComponentModel.DataAnnotations' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.Data'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Data' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Numerics'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Numerics' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'Newtonsoft.Json' is referencing assembly 'System.Xml.Linq'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Xml.Linq' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'System.Net.Http'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.Net.Http' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Net.Http.Formatting' is referencing assembly 'Newtonsoft.Json'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'Newtonsoft.Json' to 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Newtonsoft.Json.dll'. (Used referencing Module's directory.)
+Merging assembly-level attributes from input assemblies for the target assembly.
+Merging assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+Merging assembly 'Newtonsoft.Json' into target assembly.
+Assembly level attribute 'System.Security.AllowPartiallyTrustedCallersAttribute' from assembly 'Newtonsoft.Json' being deleted from target assembly
+Merging assembly 'Rhino.RetrieveBearerToken' into target assembly.
+Merging assembly 'System.Net.Http.Formatting' into target assembly.
+Copying 1 Win32 Resources from assembly 'Anahuac.CRM.EnviaOportunidadABanner' into target assembly.
+ILMerge: Signing assembly with the key file 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\Rhino2016.snk'.
+	There were no errors reported in the target assembly's metadata.
+ILMerge: Writing target assembly 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\bbpmerge\ActualizaAsesor.dll'.
+AssemblyResolver: Assembly 'Anahuac.CRM.EnviaOportunidadABanner' is referencing assembly 'System.ServiceModel'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+	AssemblyResolver: Did not find assembly in referencing assembly's directory.
+	AssemblyResolver: Attempting input directory.
+	AssemblyResolver: Did not find assembly in input directory.
+	AssemblyResolver: Attempting user-supplied directories.
+	AssemblyResolver: No user-supplied directories.
+	AssemblyResolver: Attempting framework directory.
+Resolved assembly reference 'System.ServiceModel' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'. (Used framework directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.EnterpriseServices'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.EnterpriseServices' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.EnterpriseServices.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Data' is referencing assembly 'System.Transactions'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Transactions' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Transactions.dll'. (Used referencing Module's directory.)
+AssemblyResolver: Assembly 'System.Xml' is referencing assembly 'System.Data.SqlXml'.
+	AssemblyResolver: Attempting referencing assembly's directory.
+Resolved assembly reference 'System.Data.SqlXml' to 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.SqlXml.dll'. (Used referencing Module's directory.)
+Location for referenced assembly 'mscorlib' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorlib.dll'
+	There were no errors reported in  mscorlib's metadata.
+Location for referenced assembly 'Microsoft.Xrm.Sdk' is 'E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\Anahuac.CRM.EnviaOportunidadABanner\bin\Debug\Microsoft.Xrm.Sdk.dll'
+	There were no errors reported in  Microsoft.Xrm.Sdk's metadata.
+Location for referenced assembly 'System' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\system.dll'
+	There were no errors reported in  System's metadata.
+Location for referenced assembly 'System.Core' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll'
+	There were no errors reported in  System.Core's metadata.
+Location for referenced assembly 'System.ServiceModel' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ServiceModel.dll'
+	There were no errors reported in  System.ServiceModel's metadata.
+Location for referenced assembly 'System.Data' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Data.dll'
+	There were no errors reported in  System.Data's metadata.
+Location for referenced assembly 'System.ComponentModel.DataAnnotations' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ComponentModel.DataAnnotations.dll'
+	There were no errors reported in  System.ComponentModel.DataAnnotations's metadata.
+Location for referenced assembly 'System.Numerics' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Numerics.dll'
+	There were no errors reported in  System.Numerics's metadata.
+Location for referenced assembly 'System.Xml' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll'
+	There were no errors reported in  System.Xml's metadata.
+Location for referenced assembly 'System.Xml.Linq' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Linq.dll'
+	There were no errors reported in  System.Xml.Linq's metadata.
+Location for referenced assembly 'System.Runtime.Serialization' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.Serialization.dll'
+	There were no errors reported in  System.Runtime.Serialization's metadata.
+Location for referenced assembly 'System.Net.Http' is 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Net.Http.dll'
+	There were no errors reported in  System.Net.Http's metadata.
+ILMerge: Done.

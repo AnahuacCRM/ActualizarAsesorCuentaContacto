@@ -15,7 +15,7 @@ namespace Anahuac.CRM.EnviaOportunidadABanner
     public class ActualizaAsesor : IPlugin
     {
         private readonly string postImageUpdate = "UpdateImage";
-       
+
         //private readonly string postCreateImageUpdate = "CreateImage";
 
 
@@ -26,7 +26,7 @@ namespace Anahuac.CRM.EnviaOportunidadABanner
             _cnx = new ServerConnection(serviceProvider);
             _cnx.context.SharedVariables.Clear();
 
-            _cnx.trace.Trace("primer lineas ");
+            _cnx.trace.Trace("********Inicio de la validación del plugin JC**********");
             #region " Validaciones de Plugin "
 
 
@@ -77,7 +77,18 @@ namespace Anahuac.CRM.EnviaOportunidadABanner
 
             try
             {
-                _cnx.trace.Trace("iniciando ");
+                var userId = _cnx.context.UserId;
+                VariablesRepository u2 = new VariablesRepository(_cnx);
+                var countUsuarioServicioCRM = u2.getUsuario(userId.ToString());
+
+             
+
+                //if(countUsuarioServicioCRM > 0)
+                //{
+                //    _cnx.trace.Trace("Termina Plugnin de ejecución debido a que se detectó el usuario ServicioCRM@anahuac.mx.");
+                //    return;
+                //}
+                _cnx.trace.Trace("Inicio Plugin.");
                 IPluginExecutionContext context = _cnx.context;
                 Entity currententidad = (Entity)_cnx.context.InputParameters["Target"];
 
@@ -94,25 +105,27 @@ namespace Anahuac.CRM.EnviaOportunidadABanner
 
                 Opportunity dbRecord = postImageEntity.ToEntity<Opportunity>();
                 Opportunity currentrecord = currententidad.ToEntity<Opportunity>();
+                var text = dbRecord.ua_codigo_campus.Name;
+                var text2 = dbRecord.ua_desc_nivel.Name;
+                _cnx.trace.Trace("Id Oportunidad del Context  {0}.", currentrecord.OpportunityId.Value);
 
-                _cnx.trace.Trace("Id Oportunidad from Context  {0} ", currentrecord.OpportunityId.Value);
-
-                _cnx.trace.Trace("Obtencion de campos del crm ");
+                _cnx.trace.Trace("Obtención de datos del CRM.");
                 var StageId = dbRecord.StageId != null ? dbRecord.StageId : currentrecord.StageId;
-                _cnx.trace.Trace("Obtencion Origen ");
+                _cnx.trace.Trace("Obteniendo Origen.");
                 var Origen = dbRecord.ua_origen != null ? dbRecord.ua_origen : currentrecord.ua_origen;
-                _cnx.trace.Trace("Obtencion asesor ");
+                _cnx.trace.Trace("Obteniendo Asesor.");
                 var asesor = dbRecord.OwnerId != null ? dbRecord.OwnerId : null;
                 // var statusAlumno = dbRecord.ua_estatus_alumno != null ? dbRecord.ua_estatus_alumno.Id : default(Guid);
                 var titpoAlumno = dbRecord.ua_desc_tipo_alumno != null ? dbRecord.ua_desc_tipo_alumno.Id : default(Guid);
                 var campusOrigen = dbRecord.ua_campus_origen != null ? dbRecord.ua_campus_origen.Id : default(Guid);
                 // _cnx.trace.Trace("statusAlumno:  " + statusAlumno);
-                _cnx.trace.Trace("titpoAlumno:  " + titpoAlumno);
-                _cnx.trace.Trace("campusOrigen:  " + campusOrigen);
-                _cnx.trace.Trace("asesor:  " + asesor);
+                _cnx.trace.Trace("Tipo Alumno:  " + titpoAlumno);
+                _cnx.trace.Trace("Campus Origen:  " + campusOrigen);
+                _cnx.trace.Trace("Asesor:  " + asesor.Name);
 
 
-                string codigostatusAlumno = "", stipoAlumno;
+                //string codigostatusAlumno = "", stipoAlumno;
+                string stipoAlumno;
 
                 //if (Origen != null)
                 //{
@@ -139,17 +152,18 @@ namespace Anahuac.CRM.EnviaOportunidadABanner
                 {
 
                     VariablesRepository u = new VariablesRepository(_cnx);
-                    _cnx.trace.Trace(" obteniendo el codiogo strin de  status alumno ");
+                    _cnx.trace.Trace("Obteniendo el codigo strin de  status alumno ");
                     stipoAlumno = u.GetCodigoStatusAlumno(titpoAlumno.ToString());
-                    _cnx.trace.Trace("status del alumno codigo " + stipoAlumno);
+                    _cnx.trace.Trace("Estatus del código Alumno: " + stipoAlumno);
                     if (stipoAlumno.ToUpper() == "S")// && asesor.Id.ToString()!= "0540b4eb-bdff-e611-8106-e0071b6700e1")
                     {
-                        _cnx.trace.Trace("Validando el status de la oportunidad ");
+                        _cnx.trace.Trace("Entrando a la condición Código Alumno == S");
+                        _cnx.trace.Trace("Validando el estatus de la oportunidad.");
                         bool abierta = u.IsClosed(new Guid(currentrecord.OpportunityId.Value.ToString()));
-                        _cnx.trace.Trace("Status de la oportunidad " + abierta);
+                        _cnx.trace.Trace("Estatus de la oportunidad " + abierta);
                         if (!abierta)
                         {
-                            
+
 
                             _cnx.trace.Trace("Obteniendo el id cuenta de la oportunidad ");
                             var idcuent = u.GetIdCuentaBYOportunidad(currentrecord.OpportunityId.Value.ToString());
@@ -157,9 +171,9 @@ namespace Anahuac.CRM.EnviaOportunidadABanner
                             var cuent = new Account();
                             cuent.AccountId = new Guid(idcuent);
                             cuent.OwnerId = asesor;
-                            _cnx.trace.Trace("Actualziando el objeto cuenta");
+                            _cnx.trace.Trace("Actualizando el objeto CUENTA.");
                             _cnx.service.Update(cuent);
-                            _cnx.trace.Trace("se actualuzo la cuenta");
+                            _cnx.trace.Trace("se actualuzó la CUENTA.");
                         }
 
                         ////Actualizamos el id banner en contacto
@@ -173,17 +187,18 @@ namespace Anahuac.CRM.EnviaOportunidadABanner
                     }
                     else //Si no es tipo S= Transferencia look  que sea una priemera oportunidad
                     {
+                        _cnx.trace.Trace("Entrando a la condición Código Alumno != S");
                         int numOportunidades = u.GetOportunidades(idbanerImagenubdate);
-                        if(numOportunidades==1)
+                        if (numOportunidades == 1)
                         {
+                            _cnx.trace.Trace("Entrando a la condición Número de Oportunidades == 1");
                             var idcuent = u.GetIdCuentaBYOportunidad(currentrecord.OpportunityId.Value.ToString());
-
                             var cuent = new Account();
                             cuent.AccountId = new Guid(idcuent);
                             cuent.OwnerId = asesor;
-                            _cnx.trace.Trace("Actualziando el objeto cuenta");
+                            _cnx.trace.Trace("Actualizando el objeto CUENTA.");
                             _cnx.service.Update(cuent);
-                            _cnx.trace.Trace("se actualuzo la cuenta");
+                            _cnx.trace.Trace("se actualizó la CUENTA.");
                         }
                     }
 
@@ -198,6 +213,7 @@ namespace Anahuac.CRM.EnviaOportunidadABanner
                 _cnx.trace.Trace("Message: {0}", ex.Detail.Message);
                 _cnx.trace.Trace("Inner Fault: {0}",
                     null == ex.Detail.InnerFault ? "No Inner Fault" : "Has Inner Fault");
+                throw new Exception("Error en FaultException<OrganizationServiceFault>.", ex.InnerException);
             }
             catch (System.TimeoutException ex)
             {
@@ -206,6 +222,7 @@ namespace Anahuac.CRM.EnviaOportunidadABanner
                 _cnx.trace.Trace("Stack Trace: {0}", ex.StackTrace);
                 _cnx.trace.Trace("Inner Fault: {0}",
                     null == ex.InnerException.Message ? "No Inner Fault" : ex.InnerException.Message);
+                throw new Exception("Error en TimeoutException.", ex.InnerException);
             }
             catch (System.Exception ex)
             {
@@ -229,9 +246,8 @@ namespace Anahuac.CRM.EnviaOportunidadABanner
                             null == fe.Detail.InnerFault ? "No Inner Fault" : "Has Inner Fault");
                     }
                 }
+                throw new Exception("Error en Exception.", ex.InnerException);
             }
         }
-
-        
     }
 }

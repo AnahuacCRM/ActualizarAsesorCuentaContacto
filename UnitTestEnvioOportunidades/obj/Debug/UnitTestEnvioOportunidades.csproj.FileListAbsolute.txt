@@ -135,3 +135,22 @@ C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\PluginNuevaVersion\Actualizar
 C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\PluginNuevaVersion\ActualizarAsesorCuenaContacto\Anahuac.CRM.EnvioOportunidad\UnitTestEnvioOportunidades\obj\Debug\UnitTestEnvioOportunidades.csprojResolveAssemblyReference.cache
 C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\PluginNuevaVersion\ActualizarAsesorCuenaContacto\Anahuac.CRM.EnvioOportunidad\UnitTestEnvioOportunidades\obj\Debug\UnitTestEnvioOportunidades.dll
 C:\BBP\CRM_Anahuac\CRMV1.1\CRM\Main\Source\Plugins\PluginNuevaVersion\ActualizarAsesorCuenaContacto\Anahuac.CRM.EnvioOportunidad\UnitTestEnvioOportunidades\obj\Debug\UnitTestEnvioOportunidades.pdb
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\UnitTestEnvioOportunidades.dll.config
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\UnitTestEnvioOportunidades.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\UnitTestEnvioOportunidades.pdb
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Castle.Core.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Microsoft.Xrm.Sdk.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Moq.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Anahuac.CRM.EnviaOportunidadABanner.pdb
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Castle.Core.xml
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\Moq.xml
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\obj\Debug\UnitTestEnvioOportunidades.csprojResolveAssemblyReference.cache
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\obj\Debug\UnitTestEnvioOportunidades.dll
+E:\Desarrollos_CRM\Entregables BBP\Plugins\ActualizarAsesorCuentaContacto\UnitTestEnvioOportunidades\obj\Debug\UnitTestEnvioOportunidades.pdb
